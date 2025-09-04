@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="timeline">
+
+    <div class="timeline-item left">
+        <div class="content">
+            <h3>IT Support Specialist</h3>
+            <h5>Culverhouse College of Business • 2023 – Present</h5>
+            <p>Provided IT support for faculty, staff, and students. Developed custom solutions to streamline workflows and improve system performance.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item right">
+        <div class="content">
+            <h3>Software Developer Intern</h3>
+            <h5>Protective Life • Summer 2024</h5>
+            <p>Worked with the team to build a custom Jira Kanban board and integrated Confluence workflows. Improved transparency in project management.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item left">
+        <div class="content">
+            <h3>Student IT Technician</h3>
+            <h5>University of Alabama • 2022 – 2023</h5>
+            <p>Assisted with hardware/software troubleshooting, network support, and lab maintenance. Helped train new team members.</p>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const items = document.querySelectorAll(".timeline-item");
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            // Optional: stop observing once shown
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2 });
+
+      items.forEach(item => observer.observe(item));
+    });
+</script>
