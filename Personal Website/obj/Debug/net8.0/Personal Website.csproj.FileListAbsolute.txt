@@ -31,3 +31,38 @@ C:\Users\Caleb\source\repos\Personal Website\obj\Debug\net8.0\rjsmcshtml.dswa.ca
 C:\Users\Caleb\source\repos\Personal Website\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Caleb\source\repos\Personal Website\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Caleb\source\repos\Personal Website\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\appsettings.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\Personal Website.staticwebassets.endpoints.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\Personal Website.staticwebassets.runtime.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\Personal Website.exe
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\Personal Website.deps.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\Personal Website.runtimeconfig.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\Personal Website.dll
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\Personal Website.pdb
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.AssemblyInfoInputs.cache
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.AssemblyInfo.cs
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.csproj.CoreCompileInputs.cache
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.RazorAssemblyInfo.cache
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.RazorAssemblyInfo.cs
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.sourcelink.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\scopedcss\bundle\Personal Website.styles.css
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\scopedcss\projectbundle\Personal Website.bundle.scp.css
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.dll
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\refint\Personal Website.dll
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.pdb
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.genruntimeconfig.cache
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\ref\Personal Website.dll
+C:\Users\Caleb\source\repos\Personal-Website\Personal Website\bin\Debug\net8.0\package-lock.json

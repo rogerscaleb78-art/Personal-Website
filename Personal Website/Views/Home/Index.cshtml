@@ -2,6 +2,50 @@
     ViewData["Title"] = "Home Page";
 }
 
+<!-- tsParticles CDN -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+<section id="intro" class="intro-section">
+    <div id="tsparticles"></div> <!-- Particle canvas -->
+    <div class="intro-content">
+        <h1 class="intro-title">Hi, I'm [Your Name]</h1>
+        <p class="intro-subtitle">
+            Aspiring Software Engineer | Focused on Software Design, Engineering & Performance Testing
+        </p>
+    </div>
+</section>
+
+<section class="about-section">
+    <div class="about-container">
+
+        <!-- Left: About Text -->
+        <div class="about-text animate-on-scroll left">
+            <h2>About Me</h2>
+            <p>
+                Hi, I’m [Your Name], an aspiring software engineer with a passion for building
+                efficient, user-friendly applications. My interests span across software design,
+                performance testing, and IT support. I enjoy learning new technologies and applying
+                them to solve real-world problems.
+            </p>
+        </div>
+
+        <!-- Right: Skills -->
+        <div class="about-skills animate-on-scroll right">
+            <h3>Languages & Frameworks</h3>
+            <div class="skills-grid">
+                <div class="skill">C#</div>
+                <div class="skill">Java</div>
+                <div class="skill">Python</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">ASP.NET Core</div>
+                <div class="skill">React</div>
+                <div class="skill">Unity</div>
+                <div class="skill">SQL</div>
+            </div>
+        </div>
+
+    </div>
+</section>
 <div class="timeline">
 
     <div class="timeline-item left">
@@ -30,10 +74,6 @@
 
 </div>
 
-<style>
-    
-</style>
-
 <script>
     document.addEventListener("DOMContentLoaded", () => {
       const items = document.querySelectorAll(".timeline-item");
@@ -49,5 +89,92 @@
       }, { threshold: 0.2 });
 
       items.forEach(item => observer.observe(item));
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const items = document.querySelectorAll(".animate-on-scroll");
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            observer.unobserve(entry.target); // stops re-triggering
+          }
+        });
+      }, { threshold: 0.2 });
+
+      items.forEach(item => observer.observe(item));
+    });
+</script>
+
+<script>
+       document.addEventListener("DOMContentLoaded", () => {
+        tsParticles.load("tsparticles", {
+            particles: {
+                number: {
+                    value: 160,
+                    density: {
+                        enable: true,
+                        area: 800
+                    }
+                },
+                color: { value: "#ffffff" },
+                shape: {
+                    type: "circle",
+                    stroke: { width: 0, color: "#000000" },
+                    polygon: { sides: 5 },
+                    image: { src: "img/github.svg", width: 100, height: 100 }
+                },
+                opacity: {
+                    value: 1,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: {
+                        enable: false,
+                        speed: 4,
+                        size_min: 0.3,
+                        sync: false
+                    }
+                },
+                links: { enable: false, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+                move: {
+                    enable: true,
+                    speed: 1,
+                    direction: "none",
+                    random: true,
+                    straight: false,
+                    outModes: "out",
+                    bounce: false,
+                    attract: { enable: false, rotateX: 600, rotateY: 600 }
+                }
+            },
+            interactivity: {
+                detectsOn: "window", // <-- changed from "canvas" to "window"
+                events: {
+                    onHover: { enable: true, mode: "bubble" },
+                    onClick: { enable: true, mode: "repulse" },
+                    resize: true
+                },
+                modes: {
+                    grab: { distance: 400, links: { opacity: 1 } },
+                    bubble: { distance: 250, size: 0, duration: 2, opacity: 0, speed: 3 },
+                    repulse: { distance: 400, duration: 0.4 },
+                    push: { quantity: 4 },
+                    remove: { quantity: 2 }
+                }
+            },
+            detectRetina: true
+        });
     });
 </script>
