@@ -6,12 +6,11 @@
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 
 <section id="intro" class="intro-section">
-    <div id="tsparticles"></div> <!-- Particle canvas -->
+    <div id="tsparticles"></div> <!-- particles now inside hero -->
+    <div id="hero-planet"></div>
     <div class="intro-content">
         <h1 class="intro-title">Hi, I'm [Your Name]</h1>
-        <p class="intro-subtitle">
-            Aspiring Software Engineer | Focused on Software Design, Engineering & Performance Testing
-        </p>
+        <p class="intro-subtitle">Aspiring Software Engineer | Focused on Software Design, Engineering & Performance Testing</p>
     </div>
 </section>
 
@@ -46,9 +45,12 @@
 
     </div>
 </section>
+<h2 class="timeline-header">My Experience</h2>
+
 <div class="timeline">
 
     <div class="timeline-item left">
+        <div class="planet-container" id="planet1"></div>
         <div class="content">
             <h3>IT Support Specialist</h3>
             <h5>Culverhouse College of Business • 2023 – Present</h5>
@@ -57,6 +59,7 @@
     </div>
 
     <div class="timeline-item right">
+        <div class="planet-container" id="planet2"></div>
         <div class="content">
             <h3>Software Developer Intern</h3>
             <h5>Protective Life • Summer 2024</h5>
@@ -65,6 +68,7 @@
     </div>
 
     <div class="timeline-item left">
+        <div class="planet-container" id="planet3"></div>
         <div class="content">
             <h3>Student IT Technician</h3>
             <h5>University of Alabama • 2022 – 2023</h5>
@@ -72,7 +76,10 @@
         </div>
     </div>
 
+    <!-- bottom endpoint -->
+    <div class="timeline-endpoint"></div>
 </div>
+
 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
@@ -176,5 +183,71 @@
             },
             detectRetina: true
         });
+    });
+</script>
+
+<script>
+        document.addEventListener("DOMContentLoaded", () => {
+      const timeline = document.querySelector(".timeline");
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            timeline.classList.add("show");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2 });
+
+      observer.observe(timeline);
+    });
+
+</script>
+
+<!-- Your custom script -->
+<script type="module">
+    import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.module.js';
+
+    const container = document.getElementById('hero-planet');
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(
+        50,
+        container.clientWidth / container.clientHeight,
+        0.1,
+        1000
+    );
+    const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+    renderer.setSize(container.clientWidth, container.clientHeight);
+    renderer.setPixelRatio(window.devicePixelRatio);
+    container.appendChild(renderer.domElement);
+
+    // Large sphere for moon
+    const geometry = new THREE.SphereGeometry(5, 64, 64);
+    const texture = new THREE.TextureLoader().load('moon.jpg'); // put in wwwroot/images
+    const material = new THREE.MeshStandardMaterial({ map: texture });
+    const moon = new THREE.Mesh(geometry, material);
+    scene.add(moon);
+
+    // Light
+    const light = new THREE.PointLight(0xffffff, 1.2);
+    light.position.set(10, 10, 10);
+    scene.add(light);
+
+    camera.position.z = 15;
+
+    // Animate
+    function animate() {
+        requestAnimationFrame(animate);
+        moon.rotation.y += 0.0002; // slow rotation
+        renderer.render(scene, camera);
+    }
+    animate();
+
+    // Handle resize
+    window.addEventListener('resize', () => {
+        camera.aspect = container.clientWidth / container.clientHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(container.clientWidth, container.clientHeight);
     });
 </script>
