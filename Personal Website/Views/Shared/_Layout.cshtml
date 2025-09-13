@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Personal_Website.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Personal_Website</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CSR</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,9 +26,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
                         </li>
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="InfoBot">AI</a>
-                        </li>
+                        </li> *@
                     </ul>
                 </div>
             </div>
@@ -37,11 +38,49 @@
     <!-- Render the view content -->
     @RenderBody()
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Personal_Website - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="custom-footer">
+        <div class="container text-center py-3">
+            <a href="https://github.com/YourUsername" target="_blank" class="social-btn mx-2">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/YourProfile" target="_blank" class="social-btn mx-2">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
         </div>
     </footer>
+
+    <style>
+        .custom-footer {
+            background-color: #111; /* solid dark footer */
+            color: var(--text-color);
+            border-top: 2px solid #333;
+            position: relative;
+            z-index: 10; /* keep it above particles/planet */
+        }
+
+        /* Social buttons */
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #222; /* solid non-transparent */
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+
+            .social-btn:hover {
+                background-color: #444;
+                color: #fff;
+            }
+
+            .social-btn i {
+                margin-right: 8px;
+            }
+    </style>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

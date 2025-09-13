@@ -15,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\caleb\\source\\repos\\personal-website\\personal website\\wwwroot\\js\\particles.js-master\\particles.js-master\\demo\\particles.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\particles.js-master\\particles.js-master\\demo\\particles.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\caleb\\source\\repos\\personal-website\\personal website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\caleb\\source\\repos\\personal-website\\personal website\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\caleb\\source\\repos\\personal-website\\personal website\\wwwroot\\js\\particles.js-master\\particles.js-master\\demo\\particles.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\particles.js-master\\particles.js-master\\demo\\particles.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\caleb\\source\\repos\\personal-website\\personal website\\wwwroot\\css\\2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -52,14 +52,14 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAEMBAAAAAAAAAAAYwOUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEkBAAAAAAAAAAAYwGcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-09T06:30:59.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "particles.json",
               "DocumentMoniker": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\wwwroot\\js\\particles.js-master\\particles.js-master\\demo\\particles.json",
               "RelativeDocumentMoniker": "wwwroot\\js\\particles.js-master\\particles.js-master\\demo\\particles.json",
@@ -102,14 +102,14 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAANUAAAAAAAAAAAAAAPAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-29T19:40:46.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -133,15 +133,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T19:06:07.005Z"
+              "WhenOpened": "2025-08-29T19:06:07.005Z",
+              "EditorCaption": ""
             }
           ]
         }

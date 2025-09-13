@@ -94,11 +94,19 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: #00FFFF; /* uses your defined red: #E63946 */
 }
 
+    .intro-title .highlight-name {
+        color: var(--accent); /* cyan/blue used in particles and timeline underline */
+    }
+
+
 .intro-subtitle {
+    color: #00FFFF; /* #1A1919 or dark background color */
     font-size: 1.5rem;
     opacity: 0.9;
+    font-weight: bold;
 }
 
 @keyframes fadeInUp {
@@ -278,14 +286,23 @@ body {
     }
 
 .timeline-header {
-    text-align: center;
+    display: inline-block; /* shrink to text width */
+    text-align: left; /* text inside is normal, not forced center */
+    border-bottom: 4px solid cyan;
+    padding-bottom: 5px;
+    margin: 80px 0 40px 0;
     font-size: 2.5rem;
     font-weight: bold;
-    margin: 80px 0 40px 0;
     color: var(--text-color);
     opacity: 0;
     transform: translateY(-30px);
     animation: fadeDown 1.2s ease-out forwards;
+}
+
+
+/* Make sure the parent container centers inline elements */
+.timeline-header-parent {
+    text-align: center;
 }
 
 @keyframes fadeDown {
@@ -346,6 +363,10 @@ body {
         font-size: 2rem;
         margin-bottom: 15px;
         color: var(--text-color);
+        display: inline-block;
+        border-bottom: 4px solid cyan;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
     }
 
     .about-text p {
@@ -361,6 +382,10 @@ body {
         font-size: 1.5rem;
         margin-bottom: 15px;
         color: var(--text-color);
+        display: inline-block;
+        border-bottom: 4px solid cyan;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
     }
 
 /* Skills Grid */
@@ -427,3 +452,51 @@ header, .top-bar, .ribbon, .toolbar, .navbar, .topnav, .btn-toolbar, .btn-group 
             padding-top: var(--header-height) !important;
             margin-top: 0 !important;
         }
+
+/* ===== Navbar Fix ===== */
+.navbar {
+    background-color: #111 !important; /* solid dark background */
+    color: var(--text-color);
+    position: relative;
+    z-index: 1000; /* keeps it above hero/particles */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4); /* optional subtle shadow */
+}
+
+    .navbar a {
+        color: var(--text-color) !important; /* force links white */
+        text-decoration: none;
+    }
+
+        .navbar a:hover {
+            color: var(--accent) !important; /* red hover accent */
+        }
+
+.btn-hero {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--accent); /* red text */
+    background-color: transparent; /* transparent interior */
+    border: 2px solid var(--accent); /* red border */
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-hero:hover {
+    transform: translateY(-3px);
+    background-color: var(--accent); /* fill red on hover */
+    color: var(--text-color); /* white text on hover */
+}
+
+.btn-hero:focus,
+.btn-hero:active {
+    outline: none; /* remove default focus highlight */
+}
+
+html {
+    scroll-behavior: smooth;
+}
