@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "Personal_Website.Controllers.ContactController",
+    "Method": "Send",
+    "RelativePath": "api/Contact/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Personal_Website.Models.ContactFormModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\Personal Website.csproj": {}
+    "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Personal Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\Personal Website.csproj": {
+    "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Personal Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\Personal Website.csproj",
+        "projectUniqueName": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Personal Website.csproj",
         "projectName": "Personal Website",
-        "projectPath": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\Personal Website.csproj",
-        "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caleb\\source\\repos\\Personal-Website\\Personal Website\\obj\\",
+        "projectPath": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Personal Website.csproj",
+        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Caleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
