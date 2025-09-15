@@ -1,4 +1,6 @@
-﻿document.getElementById("contactForm").addEventListener("submit", async (e) => {
+﻿
+// CONTACT FOR HANDLER
+document.getElementById("contactForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     e.stopPropagation(); // Add this to prevent any parent handlers
     e.stopImmediatePropagation(); // Prevent other handlers on the same element

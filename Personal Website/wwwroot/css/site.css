@@ -13,8 +13,7 @@
 
 /* ===== Root Color Palette ===== */
 :root {
-    --hero-bg: #000000; /* full dark blue for hero section */
-    --main-bg: #1A1919; /* slightly lighter dark blue for other sections */
+    --main-bg: #1A1919; /* slightly lighter dark for sections */
     --text-color: #ffffff; /* all text white */
     --accent: #E63946; /* red accent for timeline or highlights */
     --header-height: 56px;
@@ -43,11 +42,11 @@ html {
 
 body {
 margin: 0;
-padding-bottom: 60px; /* leave space for footer if needed */
+padding-bottom: 60px; 
 background-color: var(--main-bg);
 }
 
-/* ===== Particles Background (intro section only) ===== */
+/* ===== Particles Background ===== */
 #tsparticles {
 position: absolute;
 top: 0;
@@ -67,7 +66,7 @@ pointer-events: auto;
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background-color: var(--main-bg); /* dark blue background */
+    background-color: var(--main-bg); 
 }
 
 #hero-planet {
@@ -96,16 +95,16 @@ animation-delay: 0.5s; /* optional delay */
 font-size: 3.5rem;
 font-weight: bold;
 margin-bottom: 1rem;
-color: #00FFFF; /* uses your defined red: #E63946 */
+color: #00FFFF; 
 }
 
 .intro-title .highlight-name {
-        color: var(--accent); /* cyan/blue used in particles and timeline underline */
+        color: var(--accent); 
     }
 
 
 .intro-subtitle {
-    color: #00FFFF; /* #1A1919 or dark background color */
+    color: #00FFFF; 
     font-size: 1.5rem;
     opacity: 0.9;
     font-weight: bold;
@@ -224,10 +223,10 @@ color: #00FFFF; /* uses your defined red: #E63946 */
     transform: translate(-50%, -50%);
     width: 120%;
     height: 120%;
-    z-index: 1; /* behind text */
+    z-index: 1; 
     opacity: 0; /* start invisible */
     animation: moonFadeIn 2s ease-out forwards; /* fade in over 2s */
-    animation-delay: 0.2s; /* optional small delay */
+    animation-delay: 0.2s; 
 }
 
 @keyframes moonFadeIn {
@@ -253,8 +252,8 @@ color: #00FFFF; /* uses your defined red: #E63946 */
 
 /* Static content above planet */
 .timeline-item .content {
-    background: #ff4d4d; /* solid red */
-    color: white; /* text stays readable */
+    background: #ff4d4d; 
+    color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
@@ -289,14 +288,14 @@ color: #00FFFF; /* uses your defined red: #E63946 */
 
 /* Parent container for header */
 .timeline-header-parent {
-    margin: 0; /* remove default spacing */
+    margin: 0; 
     padding: 0;
-    text-align: center; /* center the header */
+    text-align: center; 
 }
 
 /* Timeline header */
 .timeline-header {
-    margin: 0; /* remove default h2 spacing */
+    margin: 0;
     padding-bottom: 10px; /* space for underline */
     display: inline-block;
     border-bottom: 4px solid cyan;
@@ -536,7 +535,7 @@ header, .top-bar, .ribbon, .toolbar, .navbar, .topnav, .btn-toolbar, .btn-group 
     color: var(--text-color);
     position: relative;
     z-index: 1000; /* keeps it above hero/particles */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.4); /* optional subtle shadow */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
 }
 
     .navbar a {
@@ -571,7 +570,7 @@ header, .top-bar, .ribbon, .toolbar, .navbar, .topnav, .btn-toolbar, .btn-group 
 
 .btn-hero:focus,
 .btn-hero:active {
-    outline: none; /* remove default focus highlight */
+    outline: none; 
 }
 
 html {
@@ -593,7 +592,7 @@ html {
 .contact-container {
     width: 100%;
     max-width: 600px;
-    background: var(--main-bg); /* solid background now */
+    background: var(--main-bg);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
@@ -920,3 +919,34 @@ body.light-mode {
         max-width: 90%; /* let text fill a bit more on small screens */
     }
 }
+
+.custom-footer {
+    background-color: #111; /* solid dark footer */
+    color: var(--text-color);
+    border-top: 2px solid #333;
+    position: relative;
+    z-index: 10; /* keep it above particles/planet */
+}
+
+/* Social buttons */
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222; /* solid non-transparent */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+    .social-btn:hover {
+        background-color: #444;
+        color: #fff;
+    }
+
+    .social-btn i {
+        margin-right: 8px;
+    }

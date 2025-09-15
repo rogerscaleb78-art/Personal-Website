@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\wwwroot\\js\\styles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\styles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\wwwroot\\js\\3drender.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\3drender.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\wwwroot\\js\\particles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\particles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\wwwroot\\js\\tsparticlescontact.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\tsparticlescontact.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\wwwroot\\js\\tsparticlescontact.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:wwwroot\\js\\tsparticlescontact.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{812C6CCF-70D5-42C6-9AF9-7D776FB99019}|Personal Website.csproj|c:\\users\\roger\\documents\\github\\personal-website\\personal website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,48 +70,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T02:31:07.6Z"
+              "DocumentIndex": 8,
+              "Title": "3drender.js",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\3drender.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\3drender.js",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\3drender.js",
+              "RelativeToolTip": "wwwroot\\js\\3drender.js",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-14T19:04:42.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-09T05:45:26.964Z"
+              "WhenOpened": "2025-09-09T05:45:26.964Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-29T19:40:46.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T23:05:42.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styles.js",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\styles.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\styles.js",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\styles.js",
+              "RelativeToolTip": "wwwroot\\js\\styles.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-14T19:09:09.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T19:06:07.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUCAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-09T06:30:59.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T02:31:07.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactFormModel.cs",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Models\\ContactFormModel.cs",
+              "RelativeDocumentMoniker": "Models\\ContactFormModel.cs",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Models\\ContactFormModel.cs",
+              "RelativeToolTip": "Models\\ContactFormModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T02:34:40.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "particles.js",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\particles.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\particles.js",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\particles.js",
+              "RelativeToolTip": "wwwroot\\js\\particles.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-14T19:06:19.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "tsparticlescontact.js",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\tsparticlescontact.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\tsparticlescontact.js",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\tsparticlescontact.js",
+              "RelativeToolTip": "wwwroot\\js\\tsparticlescontact.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-14T20:45:57.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -103,44 +229,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAkwEYAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T23:05:42.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAC4CAAAAAAAAAAAcwJkDAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-09T06:30:59.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T19:06:07.005Z",
+              "DocumentIndex": 11,
+              "Title": "tsparticlescontact.js",
+              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\tsparticlescontact.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\tsparticlescontact.js",
+              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\wwwroot\\js\\tsparticlescontact.js",
+              "RelativeToolTip": "wwwroot\\js\\tsparticlescontact.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-14T20:43:57.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -152,19 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ContactFormModel.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Models\\ContactFormModel.cs",
-              "RelativeDocumentMoniker": "Models\\ContactFormModel.cs",
-              "ToolTip": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Models\\ContactFormModel.cs",
-              "RelativeToolTip": "Models\\ContactFormModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T02:34:40.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\roger\\Documents\\GitHub\\Personal-Website\\Personal Website\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

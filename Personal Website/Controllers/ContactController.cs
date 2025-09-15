@@ -5,7 +5,7 @@ using Personal_Website.Models;
 using System;
 using System.Threading.Tasks;
 
-namespace Personal_Website.Controllers // Changed namespace to match likely structure
+namespace Personal_Website.Controllers 
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -14,8 +14,6 @@ namespace Personal_Website.Controllers // Changed namespace to match likely stru
         [HttpPost("send")] // This should create /api/contact/send
         public async Task<IActionResult> Send([FromBody] ContactFormModel request)
         {
-            // Your existing email sending code here
-            // Use the synchronous version for now to avoid complexity
             try
             {
                 var fromEmail = Environment.GetEnvironmentVariable("CONTACT_EMAIL");

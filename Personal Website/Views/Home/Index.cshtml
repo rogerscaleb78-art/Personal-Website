@@ -1,13 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
 <!-- tsParticles CDN -->
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 <script src="/js/site.js"></script>
+<script type="module" src="/js/3drender.js"></script>
+<script src="/js/particles.js"></script>
+<script src="/js/styles.js"></script>
 
 <section id="intro" class="intro-section">
-    <div id="tsparticles"></div> <!-- particles now inside hero -->
+    <div id="tsparticles"></div> 
     <div id="hero-planet"></div>
     <div class="intro-content">
         <h1 class="intro-title">
@@ -42,7 +44,7 @@
                 <!-- Text on the right -->
                 <div class="about-photo-container">
                     <div class="about-photo">
-                        <img src="pfp.jpg" alt="Caleb's Headshot">
+                        <img src="images/pfp.jpg" alt="Caleb's Headshot">
                     </div>
                 </div>
             </div>
@@ -102,224 +104,6 @@
     <!-- bottom endpoint -->
     <div class="timeline-endpoint"></div>
 </div>
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const items = document.querySelectorAll(".timeline-item");
-
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-            // Optional: stop observing once shown
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.2 });
-
-      items.forEach(item => observer.observe(item));
-    });
-</script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const items = document.querySelectorAll(".animate-on-scroll");
-
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-            observer.unobserve(entry.target); // stops re-triggering
-          }
-        });
-      }, { threshold: 0.2 });
-
-      items.forEach(item => observer.observe(item));
-    });
-</script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        let particlesInstance;
-
-        // Load particles and keep a reference
-        tsParticles.load("tsparticles", {
-            particles: {
-                number: { value: 160, density: { enable: true, area: 800 } },
-                color: { value: ["#8B0000", "#00FFFF"] },
-                shape: { type: "circle" },
-                opacity: { value: 1, random: true, anim: { enable: true, speed: 1, opacity_min: 0, sync: false } },
-                size: { value: 2, random: true, anim: { enable: false, speed: 4, size_min: 0.3, sync: false } },
-                links: { enable: true, distance: 80, color: "random", opacity: 0.5, width: 1 },
-                move: { enable: true, speed: 1, direction: "none", random: true, straight: false, outModes: "out", attract: { enable: false, rotateX: 600, rotateY: 600 } }
-            },
-            interactivity: {
-                detectsOn: "window",
-                events: { onHover: { enable: true, mode: "grab" }, onClick: { enable: true, mode: "repulse" }, resize: true },
-                modes: { grab: { distance: 150, links: { opacity: 0.7 } }, bubble: { distance: 250, size: 0, duration: 2, opacity: 0, speed: 3 }, repulse: { distance: 400, duration: 0.4 }, push: { quantity: 4 }, remove: { quantity: 2 } }
-            },
-            detectRetina: true
-        }).then(p => {
-            particlesInstance = p;
-
-            // Apply accessibility if saved
-            if(localStorage.getItem('accessibility') === 'enabled'){
-                enableAccessibilityMode();
-                document.getElementById('accessibilityToggle').checked = true;
-            }
-        });
-
-        const accessibilityToggle = document.getElementById('accessibilityToggle');
-        accessibilityToggle.addEventListener('change', function() {
-            if(this.checked){
-                enableAccessibilityMode();
-                localStorage.setItem('accessibility', 'enabled');
-            } else {
-                disableAccessibilityMode();
-                localStorage.setItem('accessibility', 'disabled');
-            }
-        });
-
-        function enableAccessibilityMode() {
-            if(!particlesInstance) return;
-
-            particlesInstance.options.particles.move.enable = false;
-            if(particlesInstance.options.interactivity?.events){
-                particlesInstance.options.interactivity.events.onHover.enable = false;
-                particlesInstance.options.interactivity.events.onClick.enable = false;
-            }
-            particlesInstance.refresh();
-        }
-
-        function disableAccessibilityMode() {
-            if(!particlesInstance) return;
-
-            particlesInstance.options.particles.move.enable = true;
-            if(particlesInstance.options.interactivity?.events){
-                particlesInstance.options.interactivity.events.onHover.enable = true;
-                particlesInstance.options.interactivity.events.onClick.enable = true;
-            }
-            particlesInstance.refresh();
-        }
-    });
-</script>
-
-
-
-<script>
-        document.addEventListener("DOMContentLoaded", () => {
-      const timeline = document.querySelector(".timeline");
-
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            timeline.classList.add("show");
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.2 });
-
-      observer.observe(timeline);
-    });
-
-</script>
-
-<!-- Your custom script -->
-<!-- Your custom script -->
-<script type="module">
-    import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.module.js';
-
-    const container = document.getElementById('hero-planet');
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(
-        50,
-        container.clientWidth / container.clientHeight,
-        0.1,
-        1000
-    );
-    const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
-    renderer.setSize(container.clientWidth, container.clientHeight);
-    renderer.setPixelRatio(window.devicePixelRatio);
-    container.appendChild(renderer.domElement);
-
-    // Canvas for gradient texture
-    const canvas = document.createElement('canvas');
-    canvas.width = 512;
-    canvas.height = 512;
-    const ctx = canvas.getContext('2d');
-
-    const texture = new THREE.CanvasTexture(canvas);
-
-    const geometry = new THREE.SphereGeometry(5, 64, 64);
-    const material = new THREE.MeshStandardMaterial({
-        map: texture,
-        color: 0xaaaaaa,
-        roughness: 0.8,
-        metalness: 0,
-        emissive: 0x000000
-    });
-    const sphere = new THREE.Mesh(geometry, material);
-    scene.add(sphere);
-
-    // Lights
-    const pointLight = new THREE.PointLight(0xffffff, 0.5);
-    pointLight.position.set(10, 10, 10);
-    scene.add(pointLight);
-
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.2);
-    scene.add(ambientLight);
-
-    const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 0.15);
-    scene.add(hemiLight);
-
-    camera.position.z = 15;
-
-    // Animate the gradient color slowly
-    let time = 0;
-    function updateGradient() {
-        time += 0.002; // slower speed
-        const cyan = { r: 0, g: 255, b: 255 };
-        const red = { r: 230, g: 57, b: 70 }; // #E63946
-
-        // Sin wave interpolation between cyan and red
-        const t = (Math.sin(time) + 1) / 2; // 0 -> 1 smoothly
-        const r = Math.round(cyan.r * (1 - t) + red.r * t);
-        const g = Math.round(cyan.g * (1 - t) + red.g * t);
-        const b = Math.round(cyan.b * (1 - t) + red.b * t);
-
-        const gradient = ctx.createRadialGradient(256, 256, 0, 256, 256, 256);
-        gradient.addColorStop(0, `rgb(${r},${g},${b})`);
-        gradient.addColorStop(1, '#111111'); // dark edge
-        ctx.fillStyle = gradient;
-        ctx.fillRect(0, 0, 512, 512);
-        texture.needsUpdate = true;
-    }
-
-    // Animate the sphere
-    function animate() {
-        requestAnimationFrame(animate);
-        sphere.rotation.y += 0.0005;
-        updateGradient();
-        renderer.render(scene, camera);
-    }
-    animate();
-
-    // Handle resize
-    window.addEventListener('resize', () => {
-        camera.aspect = container.clientWidth / container.clientHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(container.clientWidth, container.clientHeight);
-    });
-
-    // Fade-in
-    container.style.opacity = 0;
-    container.style.transition = "opacity 2s ease-out";
-    window.addEventListener('DOMContentLoaded', () => {
-        container.style.opacity = 1;
-    });
-</script>
 
 
 
