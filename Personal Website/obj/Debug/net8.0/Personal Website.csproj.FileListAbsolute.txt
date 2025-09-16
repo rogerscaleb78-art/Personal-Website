@@ -59,7 +59,6 @@ C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\s
 C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.dll
 C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\refint\Personal Website.dll
 C:\Users\Caleb\source\repos\Personal-Website\Personal Website\obj\Debug\net8.0\Personal Website.pdb

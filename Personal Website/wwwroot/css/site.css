@@ -125,7 +125,7 @@ color: #00FFFF;
 /* ===== Timeline ===== */
 .timeline {
     position: relative;
-    max-width: 900px;
+    max-width: 1400px;
     margin: 100px auto 60px;
     z-index: 0;
 }
@@ -135,7 +135,7 @@ color: #00FFFF;
         content: '';
         position: absolute;
         width: 6px;
-        background: #00FFFF;
+        background: var(--accent); /* Red timeline */
         top: 0;
         bottom: 0;
         left: 50%;
@@ -158,7 +158,7 @@ color: #00FFFF;
         transform: translateX(-50%);
         width: 20px;
         height: 20px;
-        background: #00FFFF;
+        background: var(--accent); /* Red timeline endpoints */
         border-radius: 50%;
         z-index: -1;
     }
@@ -171,7 +171,7 @@ color: #00FFFF;
     transform: translateX(-50%);
     width: 20px;
     height: 20px;
-    background: #00FFFF;
+    background: var(--accent); /* Red timeline endpoint */
     border-radius: 50%;
     z-index: -1;
 }
@@ -252,11 +252,12 @@ color: #00FFFF;
 
 /* Static content above planet */
 .timeline-item .content {
-    background: #ff4d4d; 
-    color: white;
+    background: #2A2A2A; /* Neutral dark background like skills */
+    color: var(--text-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border: 1px solid #3A3A3A; /* Subtle border */
 }
 
 @keyframes spin {
@@ -298,7 +299,7 @@ color: #00FFFF;
     margin: 0;
     padding-bottom: 10px; /* space for underline */
     display: inline-block;
-    border-bottom: 4px solid cyan;
+    border-bottom: 4px solid cyan; /* Keep cyan underline */
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--text-color);
@@ -327,13 +328,14 @@ color: #00FFFF;
 
     /* Timeline content boxes */
     .timeline-item .content {
-        background: #ff4d4d;
-        color: white;
-        padding: 15px;
+        background: #2A2A2A; /* Neutral dark background like skills */
+        color: var(--text-color);
+        padding: 25px;
         border-radius: 8px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-        max-width: 500px;
+        max-width: 1000px;
         flex: 1;
+        border: 1px solid #3A3A3A; /* Subtle border */
     }
 
     /* Alternate left/right items */
@@ -376,8 +378,13 @@ color: #00FFFF;
     }
 
     .timeline-item .content {
-        max-width: 90%;
+        max-width: 95%;
         text-align: center;
+        padding: 20px;
+    }
+
+    .timeline-image img {
+        height: 220px; /* appropriate height for mobile without borders */
     }
 }
 
@@ -440,7 +447,7 @@ color: #00FFFF;
         margin-bottom: 15px;
         color: var(--text-color);
         display: inline-block;
-        border-bottom: 4px solid cyan;
+        border-bottom: 4px solid cyan; /* Keep cyan underline */
         padding-bottom: 5px;
         margin-bottom: 20px;
     }
@@ -459,7 +466,7 @@ color: #00FFFF;
         margin-bottom: 15px;
         color: var(--text-color);
         display: inline-block;
-        border-bottom: 4px solid cyan;
+        border-bottom: 4px solid cyan; /* Keep cyan underline */
         padding-bottom: 5px;
         margin-bottom: 20px;
     }
@@ -472,13 +479,107 @@ color: #00FFFF;
 }
 
 .skill {
-    background: var(--accent);
+    background: #2A2A2A; /* Dark gray background that complements the theme */
     padding: 12px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     font-weight: 500;
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #3A3A3A; /* Subtle border for definition */
+}
+
+.skill:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.skill i {
+    font-size: 1.5em;
+    margin-bottom: 4px;
+}
+
+.skill span {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+/* Brand colors for skill icons */
+.skill .fa-microsoft { color: #00BCF2; } /* Microsoft blue */
+.skill .fa-java { color: #ED8B00; } /* Java orange */
+.skill .fa-js-square { color: #F7DF1E; } /* JavaScript yellow */
+.skill .fa-html5 { color: #E34F26; } /* HTML5 red */
+.skill .fa-css3-alt { color: #1572B6; } /* CSS3 blue */
+.skill .fa-database { color: #336791; } /* SQL blue */
+.skill .fa-react { color: #61DAFB; } /* React cyan */
+.skill .fa-unity { color: #000000; } /* Unity black */
+.skill .fa-node-js { color: #339933; } /* Node.js green */
+.skill .fa-aws { color: #FF9900; } /* AWS orange */
+.skill .fa-git-alt { color: #F05032; } /* Git red */
+.skill .fa-tasks { color: #0052CC; } /* Jira blue */
+.skill .fa-github { color: #181717; } /* GitHub black */
+.skill .fa-code { color: #00D4AA; } /* Cursor teal/green */
+
+/* Light mode skill backgrounds */
+body.light-mode .skill {
+    background: #F5F5F5; /* Light gray background for light mode */
+    border: 1px solid #E0E0E0; /* Lighter border for light mode */
+    color: #333; /* Dark text for light mode */
+}
+
+/* Light mode timeline content backgrounds */
+body.light-mode .timeline-item .content {
+    background: #F5F5F5; /* Light gray background for light mode */
+    border: 1px solid #E0E0E0; /* Lighter border for light mode */
+    color: #333; /* Dark text for light mode */
+}
+
+/* Light mode timeline image backgrounds */
+body.light-mode .timeline-image {
+    background-color: #f0f0f0; /* Light background for empty space around images */
+}
+
+/* Timeline content titles - inherit color from parent */
+.timeline-item .content h3,
+.timeline-item .content h5 {
+    color: inherit; /* Inherit color from parent .content */
+}
+
+/* Ensure timeline titles are white in dark mode */
+.timeline-item .content h3,
+.timeline-item .content h5 {
+    color: var(--text-color);
+}
+
+/* Timeline titles in light mode */
+body.light-mode .timeline-item .content h3,
+body.light-mode .timeline-item .content h5 {
+    color: #333; /* Dark text for light mode */
+}
+
+/* Timeline images */
+.timeline-image {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    background-color: #1a1a1a; /* Dark background for empty space around images */
+}
+
+.timeline-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.timeline-image img:hover {
+    transform: scale(1.05);
 }
 
 /* ===== Animate on Scroll ===== */
@@ -604,7 +705,7 @@ html {
         margin-bottom: 20px;
         text-align: center;
         color: var(--text-color);
-        border-bottom: 4px solid cyan;
+        border-bottom: 4px solid cyan; /* Keep cyan underline */
         display: inline-block;
         padding-bottom: 5px;
     }
@@ -671,11 +772,7 @@ html {
     }
 }
 
-.contact-form {
-    opacity: 0; /* start hidden */
-    animation: fadeInUp 1s ease forwards;
-    animation-delay: 0.3s; /* small delay for a smoother feel */
-}
+/* Animation is now handled by the animate-on-scroll class and JavaScript */
 
 #tsparticles-contact {
     position: fixed;
@@ -902,7 +999,7 @@ body.light-mode {
         margin-bottom: 20px;
         color: var(--text-color);
         display: inline-block;
-        border-bottom: 4px solid cyan;
+        border-bottom: 4px solid cyan; /* Keep cyan underline */
         padding-bottom: 5px;
     }
 
